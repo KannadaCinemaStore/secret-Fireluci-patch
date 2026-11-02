@@ -1,0 +1,17 @@
+pyrogram>=2.0.30
+tgcrypto
+pymongo[srv]==3.12.3
+motor==2.5.1
+marshmallow==3.14.1
+umongo==3.0.1
+requests
+rapidfuzz
+bs4
+shortzy
+datetime
+pytz
+regex
+Flask==2.2.2
+Werkzeug==2.2.2
+aiohttp==3.10.11
+psutil
