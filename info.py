@@ -61,7 +61,7 @@ Nᴀᴍᴇ - {}"""
 
 NO_RESULTS = """💢 No Results For Your Search❗️"""
 
-CAPTION = '<a href="https://telegram.me/KannadaMagaa"><b>{file_name}</b></a>'
+CAPTION = '<a href="https://telegram.me/KannadaMagaa"><b>{file_caption}</b></a>'
 
 RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
