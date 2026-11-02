@@ -30,10 +30,10 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 auth_channel = environ.get('AUTH_CHANNEL', '-1002317257466')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 
-SHORT1_URL = environ.get('SHORT1_URL', ' ')
-SHORT1_API = environ.get('SHORT1_API', ' ')
-SHORT2_URL = environ.get('SHORT2_URL', ' ')
-SHORT2_API = environ.get('SHORT2_API', ' ')
+SHORT1_URL = environ.get('SHORT1_URL', 'shortxlinks.com')
+SHORT1_API = environ.get('SHORT1_API', '6b1448954c0ae5b33c6bcc9b22a309d39e42d71d')
+SHORT2_URL = environ.get('SHORT2_URL', 'shortxlinks.com')
+SHORT2_API = environ.get('SHORT2_API', '6b1448954c0ae5b33c6bcc9b22a309d39e42d71d')
 IS_SHORTLINK = is_enabled(environ.get("IS_SHORTLINK", "True"), True)
 PORT = environ.get("PORT", "8080")
 CHNL_LNK = environ.get('CHNL_LNK', 'KannadaMagaa')
