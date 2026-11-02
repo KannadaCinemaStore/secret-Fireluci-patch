@@ -19,11 +19,11 @@ DATABASE_URI = environ.get('DATABASE_URI', " ")
 DATABASE_NAME = environ.get('DATABASE_NAME', " ")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', ' ')
 
-CAPTION_INDEX_CHANNEL = int(environ.get('CAPTION_INDEX_CHANNEL', '-1002354474086'))
+CAPTION_INDEX_CHANNEL = int(environ.get('CAPTION_INDEX_CHANNEL', '-1001913629397'))
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001913629397').split()] + [CAPTION_INDEX_CHANNEL]
 
 PICS = environ.get("PICS", "https://te.legra.ph/file/d6a23f16e002e86381656.jpg")
-FORCE = "https://t.me/addlist/gwz-xLwcC7Q4YjJl"
+FORCE = "https://t.me/+859CSG0uJMZmM2Jl"
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5466885993').split()]
 
 
