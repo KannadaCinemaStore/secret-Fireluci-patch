@@ -132,7 +132,7 @@ async def store_pagination(key, chat_id, search, user_id):
 
 async def handle_auto_delete(message_obj):
     try:
-        await asyncio.sleep(600)
+        await asyncio.sleep(60)
         await message_obj.delete()
     except Exception:
         pass
@@ -479,7 +479,7 @@ async def send_shortlink_page(client, user_id, file_id, chat_id):
     asyncio.create_task(delete_later(msg))
     return True
 
-async def delete_later(message, seconds=600):
+async def delete_later(message, seconds=60):
     await asyncio.sleep(seconds)
     try:
         await message.delete()
