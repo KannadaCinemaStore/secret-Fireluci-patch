@@ -13,7 +13,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '13992749'))
 API_HASH = environ.get('API_HASH', 'c8b1a7c3ce9aa1d1eec2fee774d48399')
-BOT_TOKEN = environ.get('BOT_TOKEN', '8985203889:AAF3V_xdnES2sYrDfPkhSkH1fjVIjDYzrzA')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8985203889:AAHqVGaF2WpEKfBjfJ_3dI5877X36WLvW4o')
 
 DATABASE_URI = environ.get('DATABASE_URI', " ")
 DATABASE_NAME = environ.get('DATABASE_NAME', " ")
@@ -22,7 +22,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', ' ')
 CAPTION_INDEX_CHANNEL = int(environ.get('CAPTION_INDEX_CHANNEL', '-1001913629397'))
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001913629397').split()] + [CAPTION_INDEX_CHANNEL]
 
-PICS = environ.get("PICS", "https://te.legra.ph/file/d6a23f16e002e86381656.jpg")
+PICS = environ.get("PICS", "https://i.ibb.co/WNCfHL0J/59a31bb0-cada-4ac6-a50c-51f68cbae836.jpg")
 FORCE = "https://t.me/+859CSG0uJMZmM2Jl"
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5466885993').split()]
 
@@ -61,7 +61,7 @@ Nᴀᴍᴇ - {}"""
 
 NO_RESULTS = """💢 No Results For Your Search❗️"""
 
-CAPTION = '<a href="https://telegram.me/KannadaMagaa"><b>{file_caption}</b></a>'
+CAPTION = '<a href="https://telegram.me/KannadaMagaa"><b>{file_name}</b></a>'
 
 RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
