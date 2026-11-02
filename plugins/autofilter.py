@@ -445,7 +445,7 @@ async def send_file_to_user(client, user_id, file_id):
         file_id=file_id,
         caption=caption,
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton('🔆彡⟨ HEROFLiX ⟩彡🔆', url=f'https://telegram.me/{CHNL_LNK}')]
+            [InlineKeyboardButton('🔆彡⟨ KannadaMagaa ⟩彡🔆', url=f'https://telegram.me/{CHNL_LNK}')]
         ]),
     )
     return True
@@ -540,11 +540,11 @@ async def start(client, message):
         [
             InlineKeyboardButton(
                 "🌟 Paid (No Ads)",
-                url="https://telegram.me/HeroFlixx/49"
+                url="https://telegram.me/KannadaMagaa"
             ),
             InlineKeyboardButton(
                 "🍿 Free (With Ads)",
-                url="https://telegram.me/addlist/X5k2lnJLIGAyZjQ1"
+                url="https://t.me/addlist/gwz-xLwcC7Q4YjJl"
             )
         ],
         [
